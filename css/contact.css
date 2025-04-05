@@ -1,0 +1,73 @@
+/* Contact Section Base Styles */
+#contact {
+  background: hsl(271, 45%, 18%);
+  color: #ccd6f6;
+  font-family: 'Exo', sans-serif;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Title Section */
+#contact .title h1 {
+  font-size: 2em;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+#contact .title .subtitle {
+  font-size: 1em;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+
+/* Venue Information */
+#contact .venue-info h3 {
+  font-size: 1.5em;
+  margin: 10px 0 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#contact .venue-info p {
+  font-size: 0.9em;
+  margin: 2px 0;
+}
+
+/* Social Media Icons */
+#contact .social-icons {
+  margin-top: 10px;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#contact .social-icon {
+  color: #ccd6f6;
+  transition: color 0.3s;
+}
+
+#contact .social-icon:hover {
+  color: #ffcc00;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  #contact .title h1 {
+    font-size: 1.8em;
+  }
+  #contact .title .subtitle {
+    font-size: 0.9em;
+  }
+  #contact .venue-info h3 {
+    font-size: 1.3em;
+  }
+  #contact .venue-info p {
+    font-size: 0.8em;
+  }
+  #contact .social-icons {
+    font-size: 1.3em;
+  }
+}
